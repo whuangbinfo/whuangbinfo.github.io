@@ -2,7 +2,7 @@
 layout: page
 title: "About"
 ---
-![Profile Picture](/assets/images/wh_portrait.jpg){: style="width:400px; border-radius:50%; margin-bottom:20px;" }
+![Profile Picture](/assets/wh_portrait.jpg){: style="width:400px; border-radius:50%; margin-bottom:20px;" }
 
 ### 🧠 Background
 
