@@ -10,7 +10,7 @@ I am trained in both molecular biology and computational biology, combining wet-
 My work integrates *multi-omics*, *AI-based prediction*, and *spatial transcriptomics* to better understand tumor microenvironments and therapy responses.
 
 ### 🎓 Education
-- **M.Sc. Biomedical Informatics**, *UT Health Houston*, 2024  
+- **M.Sc. Biomedical Informatics**, *University of Texas Health Sciences Center at Houston*, 2024  
 - **Ph.D. Lab Medicine & Pathology**, *University of Alberta*, 2019  
 - **B.Sc. (Hon.) Biochemistry**, *University of British Columbia*, 2013  
 

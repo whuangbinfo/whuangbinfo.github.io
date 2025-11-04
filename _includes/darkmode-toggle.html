@@ -1,0 +1,20 @@
+<button id="theme-toggle" onclick="toggleTheme()" 
+  style="position: fixed; top: 1rem; right: 1rem; z-index: 1000;
+         border: none; background: transparent; font-size: 1.4rem; cursor: pointer;">
+  🌓
+</button>
+
+<script>
+  const html = document.documentElement;
+  const icon = document.getElementById("theme-toggle");
+  const storedTheme = localStorage.getItem("theme");
+
+  if (storedTheme) html.setAttribute("data-theme", storedTheme);
+
+  function toggleTheme() {
+    const current = html.getAttribute("data-theme");
+    const next = current === "dark" ? "light" : "dark";
+    html.setAttribute("data-theme", next);
+    localStorage.setItem("theme", next);
+  }
+</script>
