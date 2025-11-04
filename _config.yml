@@ -5,7 +5,8 @@ url: "whuangbinfo.github.io"
 
 theme: minima
 minima:
-  skin: auto
+  include_css:
+    - /style.css
 
 author: "Yung Hsing (Winston) Huang"
 email: "winstonhyh@live.com"

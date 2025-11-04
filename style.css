@@ -16,3 +16,18 @@ a {
 a:hover {
   text-decoration: underline;
 }
+
+/* 🌙 Manual dark mode override */
+[data-theme="dark"] body {
+  background-color: #121212;
+  color: #eaeaea;
+}
+
+[data-theme="dark"] header,
+[data-theme="dark"] footer {
+  background-color: #1a1a1a;
+}
+
+[data-theme="dark"] a {
+  color: #80bfff;
+}
