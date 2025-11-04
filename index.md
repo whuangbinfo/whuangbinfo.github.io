@@ -5,7 +5,7 @@ title: "Home"
 {% include darkmode-toggle.html %}
 # 👋 Welcome
 
-I’m **Yung Hsing (Winston) Huang**, a **Bioinformatics and Cancer Research Expert** with 8+ years of academic and industrial experience in translational oncology, spatial omics, and molecular biology.
+My name is **Yung Hsing Huang**, you can call me **Winston**. I am a **Bioinformatics and Cancer Research Expert** with 8+ years of academic and industrial experience in translational oncology, spatial omics, and molecular biology.
 
 Currently, I serve as a **Bioinformatician** at the *Spatial Omics Core* of **Houston Methodist Research Institute**, supporting projects in **bulk RNA**, **single-cell RNA-seq**, **spatial transcriptomics (10x Xenium)**, and **spatial proteomics (Akoya Phenocycler)**.
 

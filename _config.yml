@@ -1,4 +1,4 @@
-title: "Yung Hsing (Winston) Huang"
+title: "Winston Huang"
 description: "Bioinformatics • Cancer Research • Spatial Omics"
 baseurl: ""
 url: "whuangbinfo.github.io"
@@ -9,7 +9,7 @@ minima:
   include_css:
     - /style.css
 
-author: "Yung Hsing (Winston) Huang"
+author: "Winston Huang"
 email: "winstonhyh@live.com"
 location: "Houston, TX"
 phone: "(832) 664-1350"
