@@ -2,6 +2,7 @@
 layout: page
 title: "Contact"
 ---
+{% include darkmode-toggle.html %}
 
 📍 **Location:** Houston, TX  
 📧 **Email:** [winstonhyh@live.com](mailto:winstonhyh@live.com)  

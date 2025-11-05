@@ -2,7 +2,7 @@
 layout: page
 title: "Research"
 ---
-
+{% include darkmode-toggle.html %}
 ### 🧬 Current Research — Houston Methodist Research Institute
 
 **Spatial Omics Core & Keith Syson Chan Lab**  

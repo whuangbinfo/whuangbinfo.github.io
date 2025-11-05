@@ -2,7 +2,7 @@
 layout: page
 title: "Projects"
 ---
-
+{% include darkmode-toggle.html %}
 ### 🧰 KSCBladdeR (R Package)
 R package for evaluating bladder-cancer gene signatures and survival correlations.  
 [🔗 View on GitHub](https://github.com/whuangbinfo/KSCBladdeR)
