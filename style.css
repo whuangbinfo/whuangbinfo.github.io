@@ -19,23 +19,18 @@ a:hover {
 
 .social-links {
   display: flex;
-  gap: 10px;
+  gap: 15px;
   position: fixed;
-  top: 0.8rem;
-  left: 0.8rem;
-  align-items: center;
-  z-index: 1000;
+  top: 1rem;
+  left: 1rem;
 }
 
 .social-links img {
-  width: 18px;
-  height: 18px;
-  opacity: 0.8;
-  transition: opacity 0.2s, transform 0.2s;
-  transform: scale(0.1);
+  width: 24px;
+  height: 24px;
+  transition: transform 0.2s;
 }
 
 .social-links img:hover {
-  opacity: 1;
-  transform: scale(1.1);
+  transform: scale(1.2);
 }
