@@ -19,15 +19,15 @@ a:hover {
 
 .social-links {
   display: flex;
-  gap: 15px;
+  gap: 1.5px;
   position: fixed;
   top: 1rem;
   left: 1rem;
 }
 
 .social-links img {
-  width: 24px;
-  height: 24px;
+  width: 2.4px;
+  height: 2.4px;
   transition: transform 0.2s;
 }
 
