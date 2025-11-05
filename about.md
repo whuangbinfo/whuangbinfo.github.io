@@ -2,6 +2,7 @@
 layout: page
 title: "About"
 ---
+{% include social-links.html %}
 {% include darkmode-toggle.html %}
 
 ![Profile Picture](/assets/wh_portrait.jpg){: style="width:400px; border-radius:50%; margin-bottom:20px;" }

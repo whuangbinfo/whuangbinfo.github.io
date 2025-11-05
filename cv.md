@@ -2,6 +2,7 @@
 layout: page
 title: "CV"
 ---
+{% include social-links.html %}
 {% include darkmode-toggle.html %}
 
 You can download my full CV here:  

@@ -34,16 +34,3 @@ a:hover {
 .social-links img:hover {
   transform: scale(1.2);
 }
-
-body.dark-mode .social-links img {
-  filter: brightness(0) invert(1);
-}
-
-body.dark-mode {
-  background-color: #121212;
-  color: #f0f0f0;
-}
-
-body.dark-mode a {
-  color: #9cd9ff;
-}

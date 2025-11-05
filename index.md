@@ -2,6 +2,7 @@
 layout: home
 title: "Home"
 ---
+{% include social-links.html %}
 {% include darkmode-toggle.html %}
 # 👋 Welcome
 

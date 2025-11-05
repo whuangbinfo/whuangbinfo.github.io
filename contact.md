@@ -2,6 +2,7 @@
 layout: page
 title: "Contact"
 ---
+{% include social-links.html %}
 {% include darkmode-toggle.html %}
 
 📍 **Location:** Houston, TX  

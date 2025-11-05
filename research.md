@@ -2,6 +2,7 @@
 layout: page
 title: "Research"
 ---
+{% include social-links.html %}
 {% include darkmode-toggle.html %}
 ### 🧬 Current Research — Houston Methodist Research Institute
 
