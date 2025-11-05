@@ -3,6 +3,8 @@ layout: home
 title: "Home"
 ---
 {% include darkmode-toggle.html %}
+![logo]
+[logo]: /assets/Pictogrammers-Material-Github.512.png "Github"
 # 👋 Welcome
 
 My name is **Yung Hsing Huang**, you can call me **Winston**. I am a **Bioinformatics and Cancer Research Expert** with 8+ years of academic and industrial experience in translational oncology, spatial omics, and molecular biology.
