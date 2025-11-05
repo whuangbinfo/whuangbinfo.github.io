@@ -17,17 +17,20 @@ a:hover {
   text-decoration: underline;
 }
 
-/* 🌙 Manual dark mode override */
-[data-theme="dark"] body {
-  background-color: #121212;
-  color: #eaeaea;
+.github-icon {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  z-index: 1000;
+  transition: transform 0.2s ease-in-out, filter 0.2s ease-in-out;
+}
+.github-icon:hover {
+  transform: scale(1.1);
 }
 
-[data-theme="dark"] header,
-[data-theme="dark"] footer {
-  background-color: #1a1a1a;
-}
-
-[data-theme="dark"] a {
-  color: #80bfff;
+/* 🌙 Adjust for dark mode */
+@media (prefers-color-scheme: dark) {
+  .github-icon img {
+    filter: invert(100%) brightness(90%);
+  }
 }
