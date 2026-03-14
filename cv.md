@@ -6,4 +6,4 @@ title: "CV"
 {% include darkmode-toggle.html %}
 
 You can download my full CV here:  
-[📄 Download CV (PDF)](/assets/wh_cv_v20251102.pdf)
+[📄 Download CV (PDF)](/assets/wh_cv_v20260314.pdf)
