@@ -1,6 +1,7 @@
 ---
 layout: page
 title: "CV"
+permalink: /cv/
 ---
 {% include social-links.html %}
 {% include darkmode-toggle.html %}
