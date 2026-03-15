@@ -53,3 +53,23 @@ body.dark-mode .social-links img {
 body {
   transition: background-color 0.3s, color 0.3s;
 }
+
+/* Target the header navigation links specifically */
+body.dark-mode header a, 
+body.dark-mode nav a, 
+body.dark-mode .nav-links a {
+  color: #f0f0f0 !important;
+}
+
+/* Fix the "Winston Huang" title if it's staying dark */
+body.dark-mode .site-title, 
+body.dark-mode h1, 
+body.dark-mode h2 {
+  color: #ffffff;
+}
+
+/* Ensure the footer text also flips */
+body.dark-mode footer, 
+body.dark-mode .footer-text {
+  color: #bbb;
+}
