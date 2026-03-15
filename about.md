@@ -6,7 +6,7 @@ permalink: /about/
 {% include social-links.html %}
 {% include darkmode-toggle.html %}
 
-![Profile Picture](/assets/wh_portrait.jpg){: style="width:400px; border-radius:50%; margin-bottom:20px;" }
+![Profile Picture](/assets/wh_portrait.jpg){: style="width:300px; border-radius:30%; margin-bottom:20px;" }
 
 ### 👨‍🔬 Background
 I am trained in both molecular biology and computational biology, combining wet-lab expertise with advanced data analytics.  
