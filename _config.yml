@@ -5,7 +5,7 @@ url: "whuangbinfo.github.io"
 
 theme: minima
 minima:
-  skin: auto
+  skin: light
   include_css:
     - /style.css
 

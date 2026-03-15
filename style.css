@@ -35,41 +35,20 @@ a:hover {
   transform: scale(1.2);
 }
 
-/* Dark Mode Styles */
-body.dark-mode {
-  background-color: #1a1a1a;
-  color: #f0f0f0;
-}
-
-body.dark-mode a {
-  color: #66b3ff; /* Lighter blue for better contrast on dark backgrounds */
-}
-
-body.dark-mode .social-links img {
-  filter: invert(1); /* Flips black icons to white so they are visible */
-}
-
-/* Smooth transition when switching modes */
-body {
-  transition: background-color 0.3s, color 0.3s;
-}
-
-/* Target the header navigation links specifically */
-body.dark-mode header a, 
-body.dark-mode nav a, 
-body.dark-mode .nav-links a {
-  color: #f0f0f0 !important;
-}
-
-/* Fix the "Winston Huang" title if it's staying dark */
+/* Specific override for Minima Theme Navigation */
 body.dark-mode .site-title, 
-body.dark-mode h1, 
-body.dark-mode h2 {
-  color: #ffffff;
+body.dark-mode .site-title:visited,
+body.dark-mode .page-link {
+  color: #ffffff !important;
 }
 
-/* Ensure the footer text also flips */
-body.dark-mode footer, 
-body.dark-mode .footer-text {
-  color: #bbb;
+/* Change color when hovering over nav links in dark mode */
+body.dark-mode .page-link:hover {
+  color: #66b3ff !important;
+}
+
+/* Ensure the 'Winston Huang' header text flips color */
+body.dark-mode .site-header {
+  border-top: 5px solid #333;
+  background-color: #1a1a1a;
 }
