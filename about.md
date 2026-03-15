@@ -1,29 +1,35 @@
 ---
 layout: page
 title: "About"
+permalink: /about/
 ---
 {% include social-links.html %}
 {% include darkmode-toggle.html %}
 
 ![Profile Picture](/assets/wh_portrait.jpg){: style="width:400px; border-radius:50%; margin-bottom:20px;" }
 
-### 🧠 Background
-
+### 👨‍🔬 Background
 I am trained in both molecular biology and computational biology, combining wet-lab expertise with advanced data analytics.  
-My work integrates *multi-omics*, *AI-based prediction*, and *spatial transcriptomics* to better understand tumor microenvironments and therapy responses.
+My work integrates *single-cell resolution multiomic bioinformatics* and *cancer/tumor microenvironment biology* to better understand disease outcomes such as progression and therapy response.
 
 ### 🎓 Education
 - **M.Sc. Biomedical Informatics**, *University of Texas Health Sciences Center at Houston*, 2024  
 - **Ph.D. Lab Medicine & Pathology**, *University of Alberta*, 2019  
 - **B.Sc. (Hon.) Biochemistry**, *University of British Columbia*, 2013  
 
-### ⚙️ Core Skills
-- NGS data analysis (bulk, scRNA-seq, spatial omics)  
-- Pathway and immune deconvolution analyses  
+### 🦾 Core Skills
+- Large-scale single-cell and spatial transcriptomics processing
+- Niche identification and characterization
+- Analysis pipeline buildup, automation and optimization
+- Tumor biology
 - Gene signature development and survival analytics  
-- Python (pandas, numpy, matplotlib), R (tidyverse, BiocManager)  
-- Linux for large-scale data processing  
-- Data visualization and report automation  
+- Programming languages (R, Python and Bash)  
+- Data visualization
+
+### 💪 Secondary Skills
+- Multiple myeloma tumor biology
+- Antibody-conjugated nanomedicine
+- Three-dimensional bioprinted models   
 
 ### 📜 Patent
 **Pyroptosis-Associated Gene Signature (CASCADE)** for predicting treatment response in bladder cancer  
