@@ -61,4 +61,11 @@
   body.dark-mode .site-nav .menu-icon svg path {
     fill: #f0f0f0 !important;
   }
+  
+  /* 6. Automatically flips dark icons to white in dark mode */
+  body.dark-mode .social-links img, 
+  body.dark-mode .footer-col-1 img, 
+  body.dark-mode .svg-icon {
+    filter: invert(1) brightness(2);
+  }
 </style>
