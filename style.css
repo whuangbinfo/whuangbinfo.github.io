@@ -1,22 +1,33 @@
+/* =========================================
+   1. BASE STYLES
+   ========================================= */
 body {
   font-family: Arial, sans-serif;
   margin: 40px auto;
   max-width: 800px;
   line-height: 1.6;
   color: #333;
+  /* Adds a smooth fade when toggling dark mode */
+  transition: background-color 0.3s ease, color 0.3s ease; 
 }
+
 header, footer {
   text-align: center;
   margin-bottom: 40px;
 }
+
 a {
   color: #007acc;
   text-decoration: none;
 }
+
 a:hover {
   text-decoration: underline;
 }
 
+/* =========================================
+   2. FLOATING SOCIAL LINKS
+   ========================================= */
 .social-links {
   display: flex;
   gap: 15px;
@@ -35,20 +46,53 @@ a:hover {
   transform: scale(1.2);
 }
 
-/* Specific override for Minima Theme Navigation */
-body.dark-mode .site-title, 
-body.dark-mode .site-title:visited,
-body.dark-mode .page-link {
+/* =========================================
+   3. DARK MODE - BASE PAGE
+   ========================================= */
+body.dark-mode {
+  background-color: #1a1a1a !important;
+  color: #f0f0f0 !important;
+}
+
+/* Adjusts standard link colors in dark mode */
+body.dark-mode a {
+  color: #66b3ff; 
+}
+
+/* Flips the social icons from black to white */
+body.dark-mode .social-links img {
+  filter: invert(1); 
+}
+
+/* =========================================
+   4. DARK MODE - MINIMA THEME OVERRIDES
+   ========================================= */
+/* Forces the header container to match the dark background */
+body.dark-mode .site-header {
+  background-color: #1a1a1a !important;
+  border-top: 5px solid #333 !important;
+}
+
+/* Forces the main site title to turn white */
+body.dark-mode .site-title,
+body.dark-mode .site-header .site-title,
+body.dark-mode .site-title:visited {
   color: #ffffff !important;
 }
 
-/* Change color when hovering over nav links in dark mode */
-body.dark-mode .page-link:hover {
+/* Forces the navigation tabs (About, Research, etc.) to turn off-white */
+body.dark-mode .page-link,
+body.dark-mode .site-nav .page-link {
+  color: #f0f0f0 !important;
+}
+
+/* Gives the navigation tabs a blue hover effect */
+body.dark-mode .page-link:hover,
+body.dark-mode .site-nav .page-link:hover {
   color: #66b3ff !important;
 }
 
-/* Ensure the 'Winston Huang' header text flips color */
-body.dark-mode .site-header {
-  border-top: 5px solid #333;
-  background-color: #1a1a1a;
+/* Mobile menu icon (hamburger) color flip */
+body.dark-mode .site-nav .menu-icon svg path {
+  fill: #ffffff !important;
 }
