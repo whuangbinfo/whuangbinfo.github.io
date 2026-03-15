@@ -34,3 +34,22 @@ a:hover {
 .social-links img:hover {
   transform: scale(1.2);
 }
+
+/* Dark Mode Styles */
+body.dark-mode {
+  background-color: #1a1a1a;
+  color: #f0f0f0;
+}
+
+body.dark-mode a {
+  color: #66b3ff; /* Lighter blue for better contrast on dark backgrounds */
+}
+
+body.dark-mode .social-links img {
+  filter: invert(1); /* Flips black icons to white so they are visible */
+}
+
+/* Smooth transition when switching modes */
+body {
+  transition: background-color 0.3s, color 0.3s;
+}

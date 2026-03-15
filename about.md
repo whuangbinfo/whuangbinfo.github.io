@@ -13,9 +13,9 @@ I am trained in both molecular biology and computational biology, combining wet-
 My work integrates *single-cell resolution multiomic bioinformatics* and *cancer/tumor microenvironment biology* to better understand disease outcomes such as progression and therapy response.
 
 ### 🎓 Education
-- **M.Sc. Biomedical Informatics**, *University of Texas Health Sciences Center at Houston*, 2024  
-- **Ph.D. Lab Medicine & Pathology**, *University of Alberta*, 2019  
-- **B.Sc. (Hon.) Biochemistry**, *University of British Columbia*, 2013  
+- **M.Sc. Biomedical Informatics**, *University of Texas Health Sciences Center at Houston* 
+- **Ph.D. Lab Medicine & Pathology**, *University of Alberta*
+- **B.Sc. (Hon.) Biochemistry**, *University of British Columbia*
 
 ### 🦾 Core Skills
 - Large-scale single-cell and spatial transcriptomics processing
