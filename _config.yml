@@ -3,7 +3,7 @@ description: "Bioinformatics • Cancer Research • Spatial Omics"
 baseurl: ""
 url: "whuangbinfo.github.io"
 
-theme: minima
+# theme: minima
 minima:
   skin: light
   include_css:
