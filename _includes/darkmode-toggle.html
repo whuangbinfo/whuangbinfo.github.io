@@ -21,6 +21,7 @@
     background: none;
     border: none;
     cursor: pointer;
+    z-index: 9999; /* Ensures the button stays above other elements */
   }
 
   body.dark-mode {
@@ -30,5 +31,34 @@
 
   body.dark-mode a {
     color: #9cd9ff;
+  }
+
+  /* --- MINIMA THEME HEADER OVERRIDES --- */
+  
+  /* 1. Make the header background dark */
+  body.dark-mode .site-header {
+    background-color: #121212 !important;
+    border-top-color: #333 !important;
+  }
+
+  /* 2. Make the "Winston Huang" title white */
+  body.dark-mode .site-title,
+  body.dark-mode .site-title:visited {
+    color: #ffffff !important;
+  }
+
+  /* 3. Make the navigation tabs (About, Research, etc.) white */
+  body.dark-mode .site-nav .page-link {
+    color: #f0f0f0 !important;
+  }
+
+  /* 4. Make the navigation tabs blue on hover */
+  body.dark-mode .site-nav .page-link:hover {
+    color: #9cd9ff !important;
+  }
+
+  /* 5. Make the mobile hamburger menu icon white */
+  body.dark-mode .site-nav .menu-icon svg path {
+    fill: #f0f0f0 !important;
   }
 </style>
