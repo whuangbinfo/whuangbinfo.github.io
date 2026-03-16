@@ -21,51 +21,62 @@
     background: none;
     border: none;
     cursor: pointer;
-    z-index: 9999; /* Ensures the button stays above other elements */
+    z-index: 9999;
   }
 
+  /* 1. Base Dark Mode Body Fix */
   body.dark-mode {
-    background-color: #121212;
-    color: #f0f0f0;
+    background-color: #121212 !important;
+    color: #f0f0f0 !important;
   }
 
   body.dark-mode a {
     color: #9cd9ff;
   }
 
-  /* --- MINIMA THEME HEADER OVERRIDES --- */
-  
-  /* 1. Make the header background dark */
+  /* 2. Minima Header & Title Fixes */
   body.dark-mode .site-header {
     background-color: #121212 !important;
     border-top-color: #333 !important;
   }
 
-  /* 2. Make the "Winston Huang" title white */
   body.dark-mode .site-title,
-  body.dark-mode .site-title:visited {
+  body.dark-mode .site-title:visited,
+  body.dark-mode .site-header .site-title {
     color: #ffffff !important;
   }
 
-  /* 3. Make the navigation tabs (About, Research, etc.) white */
+  /* 3. Navigation Links */
   body.dark-mode .site-nav .page-link {
     color: #f0f0f0 !important;
   }
 
-  /* 4. Make the navigation tabs blue on hover */
   body.dark-mode .site-nav .page-link:hover {
     color: #9cd9ff !important;
   }
 
-  /* 5. Make the mobile hamburger menu icon white */
+  /* 4. Mobile Menu Icon */
   body.dark-mode .site-nav .menu-icon svg path {
     fill: #f0f0f0 !important;
   }
   
-  /* 6. Automatically flips dark icons to white in dark mode */
+  /* 5. Icon Inversion (Socials/Logos) */
   body.dark-mode .social-links img, 
   body.dark-mode .footer-col-1 img, 
   body.dark-mode .svg-icon {
     filter: invert(1) brightness(2);
+  }
+
+  /* 6. Mobile Responsiveness */
+  @media screen and (max-width: 600px) {
+    #darkmode-toggle {
+      top: 0.8rem;
+      right: 3.5rem;
+    }
+  } 
+
+  /* 7. Optional: Smooth Transition */
+  body, .site-header, .site-title, .page-link {
+    transition: background-color 0.3s ease, color 0.3s ease;
   }
 </style>
