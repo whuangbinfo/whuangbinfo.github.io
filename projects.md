@@ -5,17 +5,12 @@ title: "Projects"
 {% include social-links.html %}
 {% include darkmode-toggle.html %}
 ### 🧰 HMRIBladdeR (R Package)
-R package for evaluating bladder-cancer gene signatures and survival correlations.  
-[🔗 View on GitHub](https://github.com/whuangbinfo)
+An internal R package for evaluating bladder-cancer gene signatures and survival correlations.  
+[🔗 Email me to get a token for installation!](mailto:winstonhyh@live.com)
 
-### 🧭 T24 + CAF Single-Cell Trajectory
-Trajectory and lineage analysis using Slingshot to map CAF–urothelial interactions.
-
-### 🧠 FusionAI / KMT2A-AFF1 Prediction
+### 🧠 Repurposing Drugs Targeting KMT2A-AFF1 Fusion Protein via In Silico Drug Screening
 Deep-learning modeling of KMT2A-AFF1 fusion proteins and 3D structure validation using AlphaFold2 and Schrödinger Maestro.
 
-### 🧮 Spatial Omics Integration
-Analysis of large Xenium and Visium datasets (largest over 10+ million cells) with Seurat and GPU-accelerated pipelines.
+### 🧭 Pre-Muscle-Invasive Cancer Associated Fibroblast Heterogeneity and Niche in Tumor Microenvironment
+Coming soon...
 
-### 💊 Drug Discovery Simulations
-In silico active-site identification and ligand screening for novel therapeutic targets.
