@@ -75,8 +75,31 @@
     }
   } 
 
-  /* 7. Optional: Smooth Transition */
+  /* 7. Smooth Transition */
   body, .site-header, .site-title, .page-link {
     transition: background-color 0.3s ease, color 0.3s ease;
+  }
+
+  /* 8. MOBILE DROPDOWN DARK MODE FIX */
+  @media screen and (max-width: 600px) {
+    /* This targets the white box specifically on mobile */
+    body.dark-mode .site-nav .trigger {
+      background-color: #121212 !important; /* Matches your dark body */
+      border: 1px solid #333 !important;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.5);
+    }
+
+    /* Ensure the links inside the dropdown stay light */
+    body.dark-mode .site-nav .page-link {
+      color: #f0f0f0 !important;
+      display: block;
+      padding: 10px;
+    }
+
+    /* Hover state for the dropdown links */
+    body.dark-mode .site-nav .page-link:hover {
+      background-color: #252525 !important;
+      color: #9cd9ff !important;
+    }
   }
 </style>
