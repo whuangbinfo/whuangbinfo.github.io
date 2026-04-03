@@ -96,3 +96,19 @@ body.dark-mode .site-nav .page-link:hover {
 body.dark-mode .site-nav .menu-icon svg path {
   fill: #ffffff !important;
 }
+
+/* Target the dropdown menu when dark mode is active */
+.dark-mode .site-nav .trigger {
+    background-color: #1a1a1a; /* Match this to your body background color */
+    border: 1px solid #333;    /* Optional: adds a subtle border */
+}
+
+/* Ensure the links inside are readable (white/light grey) */
+.dark-mode .site-nav .page-link {
+    color: #e0e0e0;
+}
+
+/* Change hover color for dark mode */
+.dark-mode .site-nav .page-link:hover {
+    background-color: #333;
+}
