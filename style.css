@@ -97,18 +97,24 @@ body.dark-mode .site-nav .menu-icon svg path {
   fill: #ffffff !important;
 }
 
-/* Target the dropdown menu when dark mode is active */
-.dark-mode .site-nav .trigger {
-    background-color: #1a1a1a !important; /* Match this to your body background color */
-    border: 1px solid #333 !important;  /* Optional: adds a subtle border */
+/* =========================================
+   5. MOBILE DROPDOWN FIX
+   ========================================= */
+
+/* This targets the container that pops out on mobile */
+body.dark-mode .site-nav .trigger {
+    background-color: #1a1a1a !important; 
+    border: 1px solid #444 !important;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.5); /* Optional: adds depth */
 }
 
-/* Ensure the links inside are readable (white/light grey) */
-.dark-mode .site-nav .page-link {
-    color: #e0e0e0;
+/* Ensure the links inside the mobile dropdown are bright enough */
+body.dark-mode .site-nav .trigger .page-link {
+    background-color: transparent !important;
+    color: #ffffff !important;
 }
 
-/* Change hover color for dark mode */
-.dark-mode .site-nav .page-link:hover {
-    background-color: #333;
+/* Add a highlight color when you hover over the mobile links */
+body.dark-mode .site-nav .trigger .page-link:hover {
+    background-color: #333333 !important;
 }
