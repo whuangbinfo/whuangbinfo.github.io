@@ -43,4 +43,4 @@ Deep-learning modeling of KMT2A-AFF1 fusion proteins and 3D structure validation
 # HMRIBladdeR (R Package)
 An internal R package for evaluating bladder-cancer gene signatures and survival correlations. It provides a one-liner code that provides prognostic of a gene or gene signature of interest.
 Bladder cancer datasets include TCGA-BLCA/TCGA-KIRC, SWOG (NAC cohort), IMvigor210 (ICI cohort) and Lars et al. cohort (early-staged NMIBC cohort).
-[🔗 Email me to get a token for installation!](mailto:winstonhyh@live.com)
+Web access for the package: [HMRIBladdeR](https://5plabx-winston-huang.shinyapps.io/HMRIBladdeR_Shiny/)
