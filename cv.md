@@ -7,4 +7,4 @@ permalink: /cv/
 {% include darkmode-toggle.html %}
 
 You can download my full CV here:  
-[📄 Download CV (PDF)](/assets/wh_cv_v20260504.pdf)
+[📄 Download CV (PDF)](/assets/wh_cv_v20260627.pdf)
