@@ -1,0 +1,47 @@
+/* =========================================
+   1. BASE STYLES
+   ========================================= */
+body {
+  font-family: Arial, sans-serif;
+  margin: 40px auto;
+  max-width: 800px;
+  line-height: 1.6;
+  color: #333;
+  /* Adds a smooth fade when toggling dark mode */
+  transition: background-color 0.3s ease, color 0.3s ease; 
+}
+
+header, footer {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+a {
+  color: #007acc;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* =========================================
+   2. FLOATING SOCIAL LINKS
+   ========================================= */
+.social-links {
+  display: flex;
+  gap: 15px;
+  position: fixed;
+  top: 1rem;
+  left: 1rem;
+}
+
+.social-links img {
+  width: 24px;
+  height: 24px;
+  transition: transform 0.2s;
+}
+
+.social-links img:hover {
+  transform: scale(1.2);
+}
