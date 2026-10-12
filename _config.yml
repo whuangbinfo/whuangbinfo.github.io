@@ -6,8 +6,6 @@ url: "whuangbinfo.github.io"
 theme: minima
 minima:
   skin: light
-  include_css:
-    - /style.css
 
 author: "Winston Huang"
 email: "winstonhyh@live.com"

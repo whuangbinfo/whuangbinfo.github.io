@@ -1,0 +1,62 @@
+  ---
+  ---
+  @import "minima";
+
+  /* paste the full contents of your style.css below this line */
+
+  /* =========================================
+   1. BASE STYLES
+   ========================================= */
+body,
+.site {
+  font-family: Arial, sans-serif !important;
+  margin: 40px auto !important;
+  max-width: 800px !important;
+  line-height: 1.6 !important;
+  color: #333 !important;
+  /* Adds a smooth fade when toggling dark mode */
+  transition: background-color 0.3s ease, color 0.3s ease !important; 
+
+  /* Light-mode background: DNA helix (assets/backgrounds/bg-light.svg) */
+  background-color: #eaf4fb !important;
+  background-image: url("{{ '/assets/backgrounds/bg-light.svg' | relative_url }}") !important;
+  background-size: cover !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+  background-attachment: fixed !important;
+}
+
+header, footer {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+a {
+  color: #007acc;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* =========================================
+   2. FLOATING SOCIAL LINKS
+   ========================================= */
+.social-links {
+  display: flex;
+  gap: 15px;
+  position: fixed;
+  top: 1rem;
+  left: 1rem;
+}
+
+.social-links img {
+  width: 24px;
+  height: 24px;
+  transition: transform 0.2s;
+}
+
+.social-links img:hover {
+  transform: scale(1.2);
+}

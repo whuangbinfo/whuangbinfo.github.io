@@ -24,9 +24,21 @@
     z-index: 9999;
   }
 
+  /* 0. Light-mode background (DNA helix) */
+  body {
+    background-color: #eaf4fb;
+    background-image: url("{{ '/assets/backgrounds/bg-light.svg' | relative_url }}");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+
   /* 1. Base Dark Mode Body Fix */
   body.dark-mode {
     background-color: #121212 !important;
+    /* Dark-mode background: network (assets/backgrounds/bg-dark.svg) */
+    background-image: url("{{ '/assets/backgrounds/bg-dark.svg' | relative_url }}") !important;
     color: #f0f0f0 !important;
   }
 
