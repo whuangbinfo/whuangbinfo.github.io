@@ -25,10 +25,11 @@ permalink: /cv/
 <h3>Senior Staff Scientist — Baylor College of Medicine | Houston, TX | 07/2026–Present</h3>
 <p><em>Shared bioinformatics scientist between labs of Dr. Bruno Di Stefano and Dr. Margaret Goodell.</em></p>
 <ul>
-  <li>Leveraging SLURM cloud computing for end-to-end multi-omics pipelines (RNA-seq, ATAC-seq, WGBS, EM-seq, RNA editing seq).</li>
-  <li>Building AI/ML models to predict the RNA editome from bulk RNA-seq and ATAC-seq data.</li>
-  <li>Investigating how P-bodies, RNA-binding proteins, and transposable elements reprogram cell fate as opportunities for cancer therapy.</li>
-  <li>Studying clonal hematopoiesis contributions to hematological malignancies.</li>
+  <li>Leveraging SLURM cloud computing to manage multi-omics and end-to-end bioinformatics pipelines for RNAseq, ATACseq, WGBS, EMseq, RPS2-rABE editome seq.</li>
+  <li>Translatome analysis utilizing RPS2-rABE editome and RNA transcriptome.</li>
+  <li>Multiomics analysis involving single-cell RNAseq and ATACseq.</li>
+  <li>Building AI model to predict RPS2-rABE editome from bulk RNAseq datasets to provide insight on translation status at gene levels.</li>
+  <li>DNA methylatome analysis using WGBS and EM-seq.</li>
 </ul>
 
 <h3>Bioinformatician — Houston Methodist Research Institute | Houston, TX | 02/2024–07/2026</h3>
